@@ -40,6 +40,15 @@
 .bg14{
     background-color: #0C4767;
 }
+.color01{
+    color: #443850;
+}
+.color02{
+    color: #9BC53D;
+}
+.color03{
+    color: #0B132B;
+}
 .quadrado {
     width: 100px;
     height: 100px;
@@ -64,6 +73,17 @@
     transform: scale(0.99, 0.99);
 }
 
+.parallax-home {
+    background-image: url(img/img08.jpg);
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: 100%;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
 
 
 
