@@ -40,6 +40,9 @@
 .bg14{
     background-color: #0C4767;
 }
+.bg15{
+    background-color: #D1FFD7;
+}
 .color01{
     color: #443850;
 }
@@ -85,14 +88,43 @@
     border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
+.parallax-home2 {
+    background-image: url(img/img13.jpg);
+    height: 250px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: 100%;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+#bloco{
+    position: absolute;
+}
+
+#jumb-alt {
+    background-color: #C5D1EB;
+}
 
 
 
 
 
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    .parallax-home {
+        background-attachment: scroll;
+    }
+}
 
-
-
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    .parallax-home2 {
+        background-attachment: scroll;
+    }
+}
 
 
 *----------------------------------------------------*/
