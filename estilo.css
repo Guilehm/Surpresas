@@ -67,13 +67,14 @@
 
 .efeito-hover:hover {
     transition: all 500ms ease;
-    transform: scale(1.01, 1.01);
+  /*  transform: scale(1.01, 1.01); */
     transition-delay: 0.2s;
+    box-shadow: 0px 0px 5px rgba(255,255,255,0.2);
 }
 
 .efeito-hover:active {
     transition: all 1000ms ease;    
-    transform: scale(0.99, 0.99);
+  /*  transform: scale(0.99, 0.99); */
 }
 
 .parallax-home {
@@ -106,6 +107,10 @@
 
 #jumb-alt {
     background-color: #C5D1EB;
+}
+
+.cursor {
+    cursor: pointer;
 }
 
 

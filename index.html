@@ -9,6 +9,26 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        
     </head>
     <body>    
         <!-- menu principal -->
@@ -17,7 +37,7 @@
             <span class="navbar-toggler-icon"></span>
             </button>
               <a class="navbar-brand" href="#">
-                <img src="img/img01.jpg" width="30" height="30" class="d-inline-block align-top" alt=""> Surpresas Tupperware
+                <img src="img/img23.jpg" width="30" height="30" class="d-inline-block align-top" alt=""> Surpresas Tupperware
               </a>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -68,32 +88,32 @@
             <div class="container-fluid input-group bg12">
                 <div class="container">  
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="card my-5 border-secondary box-shadow efeito-hover">
-                                <img class="card-img-top borderbottom" src="img/img02.jpg" alt="Pronta entrega">
+                                <img class="card-img-top borderbottom" src="img/img22.jpg" alt="Pronta entrega">
                                 <div class="card-body">
                                     <h4 class="card-title">Produtos pronta entrega</h4>
-                                    <p class="card-text">Clique aqui para ver os produtos disponíveis para entrega e envio imediatos!</p>
+                                    <p class="card-text">Temos produtos à pronta entrega, nos consulte para saber o que está disponível.</p>
                                 </div>
                                 <div class="card-footer">
-                                    <small class="text-muted">Veja tudo disponível a pronta entrega</small>
+                                    <small class="text-muted">Compre sua Tupper e já combine a retirada</small>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="card my-5 border-secondary box-shadow efeito-hover">
-                                <img class="card-img-top borderbottom" src="img/img04.jpg" alt="Vitrines">
+                                <img class="card-img-top cursor borderbottom" src="img/img21.jpg" data-toggle="modal" data-target="#modalVitrines" alt="Vitrines">
                                 <div class="card-body">
                                     <h4 class="card-title">Vitrines</h4>
-                                    <p class="card-text">Entre neste cartão e veja os produtos da vitrine vigente.
+                                    <p class="card-text">Clique na imagem e veja os produtos da vitrine vigente.
                                     Não perca nenhum lançamento.</p>
                                 </div>
                                 <div class="card-footer">
-                                    <small class="text-muted">Veja a vitrine vigente</small>
+                                    <small class="text-muted"><a class="text-muted" target="_blank" href="anexos/Vitrine_Tupperware_52017.pdf"> Faça o download aqui </a></small>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                 <!--       <div class="col-md-4">
                             <div class="card my-5 border-secondary box-shadow efeito-hover">
                                 <img class="card-img-top borderbottom" src="img/img06.jpg" alt="Ofertas da semana">
                                 <div class="card-body">
@@ -104,11 +124,19 @@
                                     <small class="text-muted">Aproveite as ofertas desta semana</small>
                                 </div>
                             </div>
-                        </div> 
+                        </div> -->
 
                     </div>    
                 </div>
             </div>
+<!-- Visualizador de PDF        
+<div class="embed-responsive embed-responsive-16by9">
+    <object class="embed-responsive-item" data="anexos/Vitrine_Tupperware_52017.pdf" type="application/pdf" internalinstanceid="9" title="">
+        <p>Seu navegador não está suportando a visualização do arquivo PDF. Você pode fazer o download do arquivo.
+            <a href="anexos/Vitrine_Tupperware_52017.pdf">aqui</a>.</p>
+    </object>
+</div> 
+Fim do visualizador de PDF -->
             <!-- fim dos cartões -->
         
             <!-- parallax  -->
@@ -119,7 +147,7 @@
             <!-- receitas -->
             <div class="container-fluid" style="position: relative">
                 <div class="container text-center">
-                    <h1 class="display-4 my-5">Receitas Tupperware</h1>
+                    <h1 class="display-4 my-5" id="receitasTupper">Receitas Tupperware</h1>
                     <br>
                     <p class="lead">Encontre receitas de dar água na boca para fazer com seus produtos tupperware.</p>
                     <hr class="my-4 bg06">
@@ -256,7 +284,7 @@
                         <h2 class="featurette-heading my-3">Turbochef. <span class="text-muted">Os benefícios são simplesmente mágicos.</span></h2>
                         <p>Com ele, você tem mil receitas em um único produto, prepare tudo o que sua criatividade permitir sem esforço e além disso decore sua casa com a nova cor roxa, aproveite e surpreenda-se com tudo o que o Turbo Chef pode te oferecer!</p>
                       </div>
-                      <div class="col-md-5 order-md-1">
+                      <div class="col-md-5 order-md-1 cursor">
                         <img class="featurette-image img-fluid mx-auto my-3" src="img/img18.jpg" data-toggle="modal" data-target="#modalTurbochef" alt="Generic placeholder image">
                       </div>
                     </div>
@@ -415,7 +443,7 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title">Turbochef</h5>
+                        <h5 class="modal-title">Veja o vídeo do Turbochef</h5>
                         <button type="button" class="close" data-dismiss="modal">
                             <span>&times;</span>
                         </button>
@@ -437,6 +465,37 @@
         
         
         <!-- fim modal -->
+        
+        <!-- inicio modal -->
+        <div class="modal fade bd-example-modal-lg" id="modalVitrines" tabindez="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Vitrines</h5>
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span>&times;</span>
+                        </button>
+                    </div>
+                    
+                    <div class="modal-body">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <object class="embed-responsive-item" data="anexos/Vitrine_Tupperware_52017.pdf" type="application/pdf" internalinstanceid="9" title="">
+                                <p>Seu navegador não suporta a visualização do arquivo PDF. Você pode fazer o download do PDF.
+                                    <a href="anexos/Vitrine_Tupperware_52017.pdf">aqui</a>.</p>
+                            </object>
+                        </div>
+                    </div>
+                    
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>         
+                                
+                </div>
+            </div>
+        </div>
+        
+        
+        <!-- fim modal -->        
       <!-- FOOTER -->
       <footer class="container"><hr>
         <p class="float-right"><a href="#">Voltar ao topo</a></p>
