@@ -441,17 +441,20 @@ Fim do visualizador de PDF -->
               <div class="jumbotron" id="contatoRedes"> 
                 <h1 class="display-4">Utilize as Redes Sociais para falar conosco!</h1>      
                 <p>Compartilhe este conteúdo com seus amigos e siga-nos para não perder nenhuma novidade!</p>
-                <p>Veja nosso Instagram e Facebook:</p>
-                  
-    	<div class="social">
-    		<button class="icon-btn facebook"> 
-    		<a class="link" href="https://www.facebook.com/surpresastupperware" target="_blank">
-    			<i class="fa fa-facebook"></i> 
-    		</a></button>
-    		<button class="icon-btn instagram"> 
-    		<a class="link" href="https://www.instagram.com/surpresastupperware"  target="_blank">
-    			<i class="fa fa-instagram"></i>
-    		</a></button>
+                <p>Veja nosso Instagram e Facebook:</p>                 
+				  <div class="row">           
+                    <div class="botoesRedes col-md-6 col-lg-6">
+                         <section id="socialSection">
+                          <ul class="social2">
+                            <li>
+                              <a data-toggle="tooltip" title="Envie-nos uma mensagem pelo Facebook" class="ease-all" href="https://www.facebook.com/surpresastupperware" target="_blank"><i class="fa fa-facebook"></i><span class="hide-text">Facebook</span></a>
+                          </li>
+                            <li>
+                              <a data-toggle="tooltip" title="Envie-nos uma mensagem pelo Instagram" class="ease-all" href="https://www.instagram.com/surpresastupperware/" target="_blank"><i class="fa fa-instagram"></i><span class="hide-text">Instagram</span></a>
+                            </li>
+                          </ul>
+                        </section>           
+                    </div>
             <!--
     		<button class="icon-btn twitter"> 
     		<a class="link" href="https://twitter.com/" target="_blank">
@@ -465,7 +468,6 @@ Fim do visualizador de PDF -->
     		<a class="link" href="https://github.com/" target="_blank">
     			<i class="fa fa-github"></i>
     		</a></button> -->
-        </div>    
                   
              <!--   <div class="row">
                     <div class="col-md-12 p-1">
@@ -474,8 +476,11 @@ Fim do visualizador de PDF -->
                         </iframe> 
                     </div>    
                   </div>      -->  
-                  
+            <div class="col-md-6">      
                 <p class="mt-3">Use o espaço abaixo para deixar suas perguntas e comentários, e aproveite para curtir e compartilhar esta página.</p>
+            </div>
+            </div>    
+                
                 <div class="fb-comments" data-href="https://guilehm.github.io/Surpresas/" data-width="auto" data-numposts="5"></div>
                 <div class="fb-like" 
                      data-href="https://www.facebook.com/surpresastupperware/" 
@@ -491,7 +496,7 @@ Fim do visualizador de PDF -->
 
               </div>
             </div>    
-            </div>
+            </div>    
             <!-- fim da faixa das redes sociais -->         
         
             <!-- inicio modal turbochef -->
@@ -635,7 +640,8 @@ Fim do visualizador de PDF -->
         <!-- fim modal -->         
         
       <!-- FOOTER -->
-      <footer class="container"><hr>
+      <footer class="container">
+	  <hr>
         <div>  
             <p class="float-right"><a href="#">Voltar ao topo</a></p>
             <p>&copy; Copyright 2017 - <span>Todos os direitos reservados</span> - <span>Desenvolvido por:</span> <a href="#">Guilherme Luis</a></p>
@@ -662,10 +668,10 @@ Fim do visualizador de PDF -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-<script>
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
-</script>
+    <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+    </script>
   </body>
 </html>

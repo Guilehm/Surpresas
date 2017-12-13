@@ -272,6 +272,11 @@ html{
 	color: #fff;
 }
 
+.social2{
+  list-style-type: none;
+  text-align: center;
+}
+
 .social li a:hover{
 	-webkit-box-shadow: inset 0 0 0 3px #222;
 	-moz-box-shadow: inset 0 0 0 3px #222;
@@ -282,6 +287,45 @@ html{
 	color: #222;
 }
 
+.social2 li a{
+	display: inline-block;
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-right: 1rem;
+	text-align: center;
+	padding-top: 16px;
+	
+	-webkit-border-radius:40px;
+	-moz-border-radius:40px;
+	-o-border-radius:40px;
+	-ms-border-radius:40px;
+	border-radius:40px;
+	
+	/*background-color: #222;*/
+	-webkit-box-shadow: inset 0 0 0 40px #222;
+	-moz-box-shadow: inset 0 0 0 40px #222;
+	-o-box-shadow: inset 0 0 0 40px #222;
+	-ms-box-shadow: inset 0 0 0 40px #222;
+	box-shadow: inset 0 0 0 40px #222;
+	
+	color: #fff;
+}
+
+.social2 li a:hover{
+	-webkit-box-shadow: inset 0 0 0 3px #222;
+	-moz-box-shadow: inset 0 0 0 3px #222;
+	-o-box-shadow: inset 0 0 0 3px #222;
+	-ms-box-shadow: inset 0 0 0 3px #222;
+	box-shadow: inset 0 0 0 3px #222;
+	
+	color: #222;
+}
+
+.social2 i {
+    font-size: 35px;
+    margin-top: 10%;
+}
 
 
 /* social buttons */
