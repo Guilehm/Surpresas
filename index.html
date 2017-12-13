@@ -81,6 +81,8 @@
                         role="button"                   
                         title="Compre pelo Mercado Livre"
                         data-toggle="tooltip"
+                        data-toggle="modal"
+                        data-target="#modalCompre"
                         data-placement="bottom">Compre agora!</button>
                 <br><br>
             </div>
@@ -112,7 +114,7 @@
                                     Não perca nenhum lançamento.</p>
                                 </div>
                                 <div class="card-footer">
-                                    <small class="text-muted"><a class="text-muted" target="_blank" href="anexos/Vitrine_Tupperware_52017.pdf"> Faça o download aqui </a></small>
+                                    <small class="text-muted"><a class="text-muted" target="_blank" href="http://tupperware.ipapercms.dk/Tupperware/Brasil/Tupperware/vitrinevirtual132017/?page=1  "> Veja a revista virtual </a></small>
                                 </div>
                             </div>
                         </div>
@@ -545,6 +547,49 @@ Fim do visualizador de PDF -->
             </div>
         </div>
         <!-- fim modal --> 
+
+        <!-- inicio modal compre agora -->
+        <div class="modal fade bd-example-modal-md" id="modalCompre" tabindez="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-md" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Compre com a segurança do Mercado Livre!</h5>
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span>&times;</span>
+                        </button>
+                    </div>
+                    
+                    <div class="modal-body">
+                            <p>
+                                Basta entrar em contato conosco através das opções abaixo informando seu interesse.
+                            </p>
+                            <p>
+                                Escolha seu produto e te enviaremos o link para compra pelo Mercado Livre.
+                            </p>
+                        
+                            <div class="botoesRedes">
+                                 <section id="socialSection">
+                                  <ul class="social">
+                                    <li>
+                                      <a data-toggle="tooltip" title="Envie-nos uma mensagem pelo Facebook" class="ease-all" href="https://www.facebook.com/surpresastupperware" target="_blank"><i class="fa fa-facebook"></i><span class="hide-text">Facebook</span></a>
+                                    </li>
+                                    <li>
+                                      <a data-toggle="tooltip" title="Clique aqui para nos enviar uma mensagem via WhatsApp" class="ease-all" href="https://api.whatsapp.com/send?phone=5516999994816&text=Olá,%20Surpresas%20Tupperware!%20Eu%20gostaria%20de%20comprar%20produtos." target="_blank"><i class="fa fa-whatsapp"></i><span class="hide-text" >WhatsApp</span></a>
+                                    </li>
+                                  </ul>
+                                </section>           
+                            </div>
+                    </div>
+                    
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>         
+                                
+                </div>
+            </div>
+        </div>
+        <!-- fim modal -->          
+        
         
         <!-- inicio modal revendedor -->
         <div class="modal fade bd-example-modal-md" id="modalRevenda" tabindez="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
