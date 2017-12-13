@@ -107,15 +107,114 @@
 
 #jumb-alt {
     background-color: #C5D1EB;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .cursor {
     cursor: pointer;
 }
 
+.botao-redes {
+    height: 100px;
+}
+
+.pos-absolute {
+    position: absolute;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.d-block {
+    display: block;
+    clear: both;
+}
+
+.d-table {
+    display: table;
+}
 
 
 
+/* social buttons */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+html{
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+#socialSection{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.hide-text{
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+}
+
+.ease-all{
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-o-transition: all 400ms ease-in-out;
+	-ms-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+}
+
+/* Social Icons */
+
+.social{
+  list-style-type: none;
+  text-align: center;
+}
+
+
+.social li a{
+	display: inline-block;
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin-right: 1rem;
+	text-align: center;
+	padding-top: 8px;
+	
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	-o-border-radius:20px;
+	-ms-border-radius:20px;
+	border-radius:20px;
+	
+	/*background-color: #222;*/
+	-webkit-box-shadow: inset 0 0 0 40px #222;
+	-moz-box-shadow: inset 0 0 0 40px #222;
+	-o-box-shadow: inset 0 0 0 40px #222;
+	-ms-box-shadow: inset 0 0 0 40px #222;
+	box-shadow: inset 0 0 0 40px #222;
+	
+	color: #fff;
+}
+
+.social li a:hover{
+	-webkit-box-shadow: inset 0 0 0 3px #222;
+	-moz-box-shadow: inset 0 0 0 3px #222;
+	-o-box-shadow: inset 0 0 0 3px #222;
+	-ms-box-shadow: inset 0 0 0 3px #222;
+	box-shadow: inset 0 0 0 3px #222;
+	
+	color: #222;
+}
+
+
+
+/* social buttons */
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1024px) {
@@ -123,6 +222,9 @@
         background-attachment: scroll;
     }
 }
+
+
+
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1024px) {

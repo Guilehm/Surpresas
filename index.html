@@ -10,6 +10,9 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
         
+        <!-- social media buttons -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
         <!-- favicon -->
         <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
         <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
@@ -46,10 +49,10 @@
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Seja um revendedor</a>
+                        <a class="nav-link" href="#sejaRevendedor">Seja um revendedor</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Receitas</a>
+                        <a class="nav-link" href="#receitasTupper">Receitas</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link disabled" href="#">Contato</a>
@@ -310,7 +313,21 @@ Fim do visualizador de PDF -->
             <div class="parallax-home2">
             </div>   
 
-        
+         <!-- inicio revendedor -->
+        <div class="container-fluid bg14 p-5" id="sejaRevendedor">
+            <div class="container">
+                <h1 class="lead text-white display-4 pb-4">Seja um revendedor Tupperware</h1>
+                <p class="text-white pb-3">
+                    Aproveite esta oportunidade e seja um revendedor Tupperware. É muito simples e rápido, já comece a vender os produtos dessa marca conceituada. 
+                </p>
+                <p class="text-white pb-3">
+                    Pode ser apenas para complementar sua renda ou para construir uma carreira profissional com ótimos retornos. Revenda produtos de alta qualidade e reconhecido por todos, alcance seus sonhos com a Tupper!
+                </p>
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalRevenda">Começar minha carreira</button>
+
+            </div>
+        </div>
+        <!-- fim revendedor -->       
         
             <!--  depoimentos -->
             <div class="container" style="padding-top:30px">
@@ -342,7 +359,6 @@ Fim do visualizador de PDF -->
                                 <div class="testimonial-writer">
                                     <div class="testimonial-writer-name">Natália Sousa</div>
                                     <div class="testimonial-writer-designation">Empresária</div>
-                                    <a href="https://www.facebook.com/donaolgafranca/" target="_blank" class="testimonial-writer-company">Dona Olga</a>
                                 </div>
                             </div>
                         </div>   
@@ -416,6 +432,7 @@ Fim do visualizador de PDF -->
                 <br/>
             </div> <!-- Fim depoimentos -->
         
+            
             <!-- faixa das redes sociais --> 
             <div class="container-fluid bg12">
             <div class="container">    
@@ -431,42 +448,42 @@ Fim do visualizador de PDF -->
                      data-action="like" 
                      data-size="small" 
                      data-show-faces="true" 
-                     data-share="true">    
+                     data-share="true">   
                 </div>
               </div>
             </div>    
             </div>
             <!-- fim da faixa das redes sociais -->         
         
-        <!-- inicio modal -->
-        <div class="modal fade" id="modalTurbochef" tabindez="-1" role="dialog">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Veja o vídeo do Turbochef</h5>
-                        <button type="button" class="close" data-dismiss="modal">
-                            <span>&times;</span>
-                        </button>
-                    </div>
-                    
-                    <div class="modal-body">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/x5vdO4HJEnk"></iframe>
+            <!-- inicio modal turbochef -->
+            <div class="modal fade" id="modalTurbochef" tabindez="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Veja o vídeo do Turbochef</h5>
+                            <button type="button" class="close" data-dismiss="modal">
+                                <span>&times;</span>
+                            </button>
                         </div>
+
+                        <div class="modal-body">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/x5vdO4HJEnk"></iframe>
+                            </div>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                        </div>         
+
                     </div>
-                    
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
-                    </div>         
-                                
                 </div>
             </div>
-        </div>
         
         
         <!-- fim modal -->
         
-        <!-- inicio modal -->
+        <!-- inicio modal vitrines -->
         <div class="modal fade bd-example-modal-lg" id="modalVitrines" tabindez="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
@@ -493,15 +510,60 @@ Fim do visualizador de PDF -->
                 </div>
             </div>
         </div>
+        <!-- fim modal --> 
         
+        <!-- inicio modal revendedor -->
+        <div class="modal fade bd-example-modal-md" id="modalRevenda" tabindez="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-md" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Seja bem-vindo ao nosso time!</h5>
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span>&times;</span>
+                        </button>
+                    </div>
+                    
+                    <div class="modal-body">
+                            <p>
+                                Basta entrar em contato conosco através das opções abaixo informando seu interesse.
+                            </p>
+                            <p>
+                                Ficamos muito contentes com sua escolha e em breve retornaremos sua mensagem com as instruções.
+                            </p>
+                        
+                            <div class="botoesRedes">
+                                 <section id="socialSection">
+                                  <ul class="social">
+                                    <li>
+                                      <a data-toggle="tooltip" title="Envie-nos uma mensagem pelo Facebook" class="ease-all" href="https://www.facebook.com/surpresastupperware" target="_blank"><i class="fa fa-facebook"></i><span class="hide-text">Facebook</span></a>
+                                    </li>
+                                    <li>
+                                      <a data-toggle="tooltip" title="(16) 99999-4816" class="ease-all" href="https://api.whatsapp.com/send?phone=5516999994816&text=Olá,%20Surpresas%20Tupperware!%20Eu%20gostaria%20de%20revender%20Tupperware!" target="_blank"><i class="fa fa-whatsapp"></i><span class="hide-text" >WhatsApp</span></a>
+                                    </li>
+                                  </ul>
+                                </section>           
+                            </div>
+                    </div>
+                    
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                    </div>         
+                                
+                </div>
+            </div>
+        </div>
+        <!-- fim modal -->         
         
-        <!-- fim modal -->        
       <!-- FOOTER -->
       <footer class="container"><hr>
         <p class="float-right"><a href="#">Voltar ao topo</a></p>
         <p>&copy; Copyright 2017 - <span>Todos os direitos reservados</span> - <span>Desenvolvido por:</span> <a href="#">Guilherme Luis</a></p>
       </footer>
 
+      
+    <!-- JS tooltip -->
+        
+        
     <!-- JS para botão Share Facebook -->
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
@@ -518,5 +580,10 @@ Fim do visualizador de PDF -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script>
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
   </body>
 </html>
