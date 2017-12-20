@@ -1,8 +1,9 @@
-## Bem-vindo ao Github
+## Welcome to my repository.
 
-Side desenvolvido em HTML e CSS.
+This website was developed with HTML + CSS.
 
-Por enquanto não tem nada em JavaScript.
+There are few JavaScript codes.
+I will implement new funcions as I learn coding.
 Futuramente quando aprender quero implementar mais funcionalidades.
 
 ### Markdown
