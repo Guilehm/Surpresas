@@ -5,26 +5,26 @@ This website was developed with HTML + CSS.
 There are few JavaScript codes.
 I will implement new funcions as I learn coding.
 Futuramente quando aprender quero implementar mais funcionalidades.
-
+<!--
 ### Markdown
-
+<!--
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+<!--
 ```markdown
 Syntax highlighted code block
 <!--
 # Header 1
 ## Header 2
 ### Header 3
-
+<!--
 - Bulleted
 - List
-
+<!--
 1. Numbered
 2. List
-
+<!--
 **Bold** and _Italic_ and `Code` text
-
+<!--
 [Link](url) and ![Image](src)
 ```
 <!--
