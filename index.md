@@ -4,7 +4,13 @@ This website was developed with HTML + CSS.
 
 There are few JavaScript codes.
 I will implement new funcions as I learn coding.
-Futuramente quando aprender quero implementar mais funcionalidades.
+
+This is my first project and first time using GitHub.
+I will appreciate your comments and suggestions.
+
+Thanks,
+
+- Guilherme Luis
 <!--
 ### Markdown
 <!--
