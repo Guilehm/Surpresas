@@ -10,7 +10,7 @@ I will appreciate your comments and suggestions.
 
 Thanks,
 
-_Guilherme_Luis_
+_Guilherme Luis_
 <!--
 ### Markdown
 <!--
